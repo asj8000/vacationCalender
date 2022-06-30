@@ -1,0 +1,60 @@
+.login_wrap{top:0;position:fixed;width:100%;height:100%;background-color:#eceded;}
+.login_form{position:fixed;width:350px;height:400px;left:50%;top:50%;margin-left:-175px;margin-top:-200px;border:#ff4070 solid 1px;background-color:#fff;padding-top:30px;}
+.join_form{position:fixed;width:600px;height:500px;left:50%;top:50%;margin-left:-300px;margin-top:-250px;border:#ff4070 solid 1px;background-color:#fff;padding-top:30px;}
+.join_form .form{width:83.4%;}
+.join_form.join_detail{ width:500px; height: 400px; margin-top: -200px; }
+.join_form.join_detail .select_form{ width: 400px; }
+
+.form{width:80%;height:40px;margin:0 auto;margin-top:10px;text-align:center;color:#ff4070;}
+.form_1{width:60%;height:40px;margin:0 auto;margin-top:10px;text-align:center;color:#ff4070;}
+.form a{width:100px;height:20px;color:#000;}
+.form_1 button{margin-top:100px;width:80%;text-align:center;box-shadow:0 10px 15px rgba(0,0,0,.8);}
+.form_control{width:220px;margin:0 auto;border:1px solid #ff4070;background:#ccc;margin:0 0 5px;padding:8px;border-radius:5px;font-size:12px;padding-right:10px;color:#444;outline:none;}
+
+.invalid{background:#fafafa no-repeat 99% 50%;background-position:right 6px center;}
+
+.button_1{margin-left:70%;background-color:#ff5d5d;border-bottom-left-radius:10px;border:1px solid #ff5d5d;color:#fff;font-size:15px;font-weight:700;font-style:normal;height:30px;line-height:30px;width:30%;text-decoration:none;text-align:center;}
+.button_1:hover{background:-webkit-gradient(linear,left top,left bottom,color-stop(0.05,#ff5d5d),color-stop(1,#ff5d5d));background:-moz-linear-gradient(center top,#ff5d5d 5%,#ff5d5d 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5d5d',endColorstr='#ff5d5d');background-color:#ff5d5daa;}
+.button_1 active{position:relative;top:1px;}
+.button_1:before{border-color:transparent;-webkit-transition:all .25s;transition:all .25s;border-style:solid;border-width:0;content:"";height:10px;position:absolute;width:24px;border-color:#ff5d5d;border-right-width:2px;border-top-width:2px;right:-5px;top:-5px;}
+.button_1:hover,
+.button_1.hover{background-color:#ff5d5d;}
+.button_1:hover:before,
+.button_1.hover:before{height:8%;width:31%;}
+
+.button_efect{background-color:#ff5d5d;border:none;color:#fff;cursor:pointer;display:inline-block;font-size:22px;line-height:1em;margin:15px 40px;outline:none;padding:12px 40px 10px;position:relative;text-transform:uppercase;font-weight:700;}
+.button_efect:before,
+.button_efect:after{border-color:transparent;-webkit-transition:all .25s;transition:all .25s;border-style:solid;border-width:0;content:"";height:24px;position:absolute;width:24px;}
+.button_efect:before{border-color:#ff5d5d;border-right-width:2px;border-top-width:2px;right:-5px;top:-5px;}
+.button_efect:after{border-bottom-width:2px;border-color:#ff5d5d;border-left-width:2px;bottom:-5px;left:-5px;}
+.button_efect:hover,
+.button_efect.hover{background-color:#ff5d5d;}
+.button_efect:hover:before,
+.button_efect.hover:before,
+.button_efect:hover:after,
+.button_efect.hover:after{height:100%;width:100%;}
+
+.full_form{width:480px;}
+
+.select_form{width:500px;}
+
+
+@media(max-width: 1000px) {
+	.login_form,.join_form{padding-top:15%;width:100%;height:120%;margin-left:0;margin-top:0;top:0;left:0;border:solid 0;}
+	.join_form.join_detail {width: 100%;height: 100%;margin: 0;padding: 50px 0;}
+	select.f-right.select_form.form_control.invalid { width: 100%;}
+	form#form{margin-top: 50px;}
+	.join_form{padding-top:0;}
+	.form{width:90%;height:30%;}
+	.join_detail .form{height: auto;}
+	h1{font-size:700%;margin:0;margin-top:5%;}
+	.form_control{width:100%;height:80px;font-size:50px;margin-top:30px;}
+	.button_efect{margin-top:120px;width:400px;height:150px;font-size:50px;}
+	.form a{font-size:50px;}
+	.f-left,.f-right{float:right;}
+	.err_form{position:fixed;width:800px;top:0;left:50%;margin-left:-400px;margin-top:5%;text-align:center;font-size:50px;}
+	label{padding-top:2.5%;width:30%;float:left;font-size:75px;margin:0;}
+	label.ml-150{margin:0;}
+	.day_input .form_control{width:50%;}
+	.mt-30{margin-top:0;}
+}

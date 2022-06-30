@@ -1,0 +1,105 @@
+.content{overflow:auto}
+
+.check_wrap{width:100%;height:300px}
+.check_wrap a{color:#ff5252}
+.check_form_title{width:940px}
+.check_wrap .main_check{margin-top:20px}
+.check_wrap .main_check .top_group,.check_wrap .main_check .middle_group,.check_wrap .bottom_group,.check_wrap .sub_check .top_group,.check_wrap .bottom_group{width:940px;height:23px;padding-top:3px}
+.check_wrap .sub_check{margin-top:18px;width:100%}
+
+.top_group .group_form{background:#f3f3f3}
+.group_form{text-align:center;height:23px;border:1px solid #ff4070;float:left}
+.check_wrap .waring{margin-top:10px;width:100%;font-size:14px}
+
+.apply_wrap{display:none;top:0;left:0;position:fixed;width:100vw;height:100vh}
+.apply_background{position:fixed;background:#cccccccc;width:100vw;height:100vh}
+
+.apply_form{position:fixed;border:1.5px solid #ff5252;border-radius:5px;left:50%;top:50%;height:400px;width:600px;margin-left:-300px;margin-top:-200px;background:#f9f9f9;box-shadow:5px 5px 5px 5px gray;padding:20px;font-size:25px}
+.apply_form h2{margin:0}
+.apply_form select{width:100px;height:30px;margin:10px 0;outline:none}
+.apply_form select,.apply_form input{width:50%;height:auto;line-height:normal;padding:9px 12px;font-family:inherit;border:1px solid #999;border-radius:3px;outline-style:none;font-size:15px;-webkit-appearance:none;-moz-appearance:none;appearance:none}
+.apply_form input{width:180px}
+.apply_form .detail_form input{margin-top:20px;height:25px}
+.apply_form .dete_insert_1{position:relative;width:100%;height:50px}
+.apply_form #dete_insert_1_0,#dete_insert_1_1{position:absolute}
+.apply_form .dete_insert_check_box{position:relative}
+.apply_form input[type="checkbox"]{display:none}
+.apply_form input[type="checkbox"] + label{color:#888}
+.apply_form input[type="checkbox"] + label span{display:inline-block;width:19px;height:19px;margin:-2px 10px 0 0;vertical-align:middle;background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/check_radio_sheet.png) left top no-repeat;cursor:pointer}
+.apply_form input[type="checkbox"]:checked + label span{background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/check_radio_sheet.png) -19px top no-repeat}
+
+.button_effect_0,.button_effect_1{background-color:#ff5d5d;border:none;color:#fff;cursor:pointer;display:inline-block;font-size:22px;line-height:1em;margin:30px 250px;outline:none;padding:12px 40px 10px;position:relative;text-transform:uppercase;font-weight:700}
+.button_effect_0:before,.button_effect_0:after{border-color:transparent;-webkit-transition:all .25s;transition:all .25s;border-style:solid;border-width:0;content:"";height:24px;position:absolute;width:24px}
+.button_effect_0:before{border-color:#ff5d5d;border-right-width:2px;border-top-width:2px;right:-5px;top:-5px}
+.button_effect_0:after{border-bottom-width:2px;border-color:#ff5d5d;border-left-width:2px;bottom:-5px;left:-5px}
+.button_effect_0:hover,.button_effect_0.hover{background-color:#ff5d5d}
+.button_effect_0:hover:before,.button_effect_0.hover:before,.button_effect_0:hover:after,.button_effect_0.hover:after{height:100%;width:100%}
+.button_effect_0:active,.button_effect_1:active{background:#ff5d5dcc}
+.button_effect_1{font-size:15px;margin:15px 0;border:1px solid #ff5252;border-radius:5px;padding:5px 20px;background:#fff;color:#ff5252}
+.button_effect_1:hover{background:#ff5252;color:#fff}
+
+button.button_effect_0.on_apply_popup.f-right{margin:0 60px;top:-30px}
+.apply_form .button_1{margin:0 auto;padding:10px 34px;left:38%}
+.submit_button_form{position:absolute;width:90%;top:85%;margin:0 auto}
+
+.preview{position:fixed;height:20px;width:320px;top:50%;margin-top:120px}
+.preview .event{display:block;font-size:13px;border-radius:4px;padding:5px;margin-bottom:5px;line-height:14px;background:#f5ffff;border:1px solid #b5dbdc;text-decoration:none;height:20px;width:200px}
+.preview .event-desc{color:#666;margin:3px 0 0;text-decoration:none}
+
+.err_form{position:fixed;height:200px;width:500px;top:50%;left:50%;margin-left:-250px;margin-top:-400px;text-align:center}
+.alert-danger{padding:15px;font-size:20px;color:#a94442;background-color:#f2dede;border-color:#ebccd1}
+.alert-success{padding:15px;font-size:20px;color:#3c763d;background-color:#dff0d8;border-color:#d6e9c6}
+
+.user_usage_inquiry td{border:1px solid #ccc}
+.user_usage_inquiry .top_group,.user_usage_inquiry .bottom_group{width:500px;height:25px}
+
+
+@media(max-width: 1000px) {
+    .myprofile_page,.myprofile_page.pw,.myprofile_page.id{width:100%;padding:0;margin-top:50px}
+    .myprofile_page h1{font-size:70px}
+    .myprofile_page .form{width:70%;height:100px}
+    .myprofile_page .text,.data_out_field.f-right,select.data_out_field.f-right,input.data_out_field.f-right{width:300px;padding:15px 0 0 20px;font-size:40px;height:50px}
+
+    .edit_profile_button_form{width:640px}
+    .edit_profile_button_form button.center.edit_profile_button{width:300px;height:120px;font-size:40px}
+    a.btn.btn-warning,.err_form{font-size:60px}
+
+    .myprofile_page.pw .form{width:70%;height:100px}
+    .myprofile_page.pw .text.f-left{width:300px}
+
+    .content{overflow-y:hidden;overflow-x:auto;width: 94%;padding: 3%;}
+    .content h1{font-size:70px}
+    .content .guide_word{font-size:30px}
+
+    .check_wrap{height:auto}
+    .check_wrap button.button_effect_0.on_apply_popup{width:350px;position:inherit;height:100px;font-size:35px;margin-top:-150px}
+    .check_form{width:100%;height:350px;overflow-x:scroll;white-space:nowrap}
+    .check_form::-webkit-scrollbar{height:17.5px}
+    .check_form::-webkit-scrollbar-button:end:increment,.check_form::-webkit-scrollbar-button:start:decrement{display:block;width:20px;height:12px;background:#ff5d5d}
+    .check_form::-webkit-scrollbar-track{background:#ffffff53}
+    .check_form::-webkit-scrollbar-thumb{background:#ff5d5d53}
+
+    .check_wrap .main_check .top_group,.check_wrap .main_check .middle_group,.check_wrap .bottom_group,.check_wrap .sub_check .top_group,.check_wrap .bottom_group{width:1880px;height:46px}
+    .group_form.w-300{height:46px;font-size:40px}
+    .group_form.w-100,.group_form.w-200,.bottom_group{height:46px;font-size:30px}
+    .user_usage_inquiry .top_group,.user_usage_inquiry .bottom_group{width:810px;height:50px}
+
+    .w-100{width:200px}
+    .w-200{width:400px}
+    .w-300{width:600px}
+    .user_usage_inquiry{width:100%;overflow-y:auto;height: 48%;}
+    .user_usage_inquiry::-webkit-scrollbar{width:17.5px}
+    .user_usage_inquiry::-webkit-scrollbar-button:end:increment,.user_usage_inquiry::-webkit-scrollbar-button:start:decrement{display:block;width:20px;height:12px;background:#ff5d5d}
+    .user_usage_inquiry::-webkit-scrollbar-track{background:#ffffff53}
+    .user_usage_inquiry::-webkit-scrollbar-thumb{background:#ff5d5d53}
+    #apply_form{width:90%;height:60%;top:20%;left:2.5%;padding:2.5%;margin:0;font-size:60px;border-radius:10px}
+    #apply_form div{padding:10px 0}
+
+    h2{font-size:70px}
+    .devide_form{margin-top:50px}
+    .apply_form select,.apply_form input{height:75px;font-size:50px;width:50%}
+
+    input[type="date"]{width:55%}
+    button.button_effect_0.button_1{width:50%;height:100%;font-size:50px;margin:0 27%;left:0}
+    .submit_button_form{height:150px;top:75%}
+}

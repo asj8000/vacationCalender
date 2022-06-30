@@ -1,0 +1,14 @@
+.content .row{width:1100px;height:90vh;margin:25px 10px;}
+
+.content td{border:1px solid #cccccc77;}
+.content th{width:100px;}
+
+.content .row .small_witdh{width:50px;}
+.content .row .large_witdh{width:170px;}
+
+.content .btn-primary{margin:20px 0 0 200px;}
+.content .dete_insert_check_box_form{padding:20px 0 0 20px;}
+.content .dete_insert_check_box_form button{width:100px;height:40px;font-size:17px;background:#fff;outline:none;border:1.5px solid #ff5252;color:#ff5252;border-radius:3px;padding:5px;font-family:'jua',sans-serif;font-size:15p;}
+
+.content button:hover,
+.content .dete_insert_check_box_form input:hover{color:#fff;background:#ff5252;cursor:pointer;}

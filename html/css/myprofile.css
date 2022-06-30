@@ -1,0 +1,34 @@
+ .myprofile_page{height:95%;width:600px;margin:0 auto;padding-top:100px;}
+.myprofile_page.id{padding-top:50px;}
+.myprofile_page.pw{height:400px;width:350px;margin:100px auto;padding:50px;}
+
+.myprofile_page .form{height:50px;width:300px;padding-right:100px;margin:0 auto;border:1px solid #ccc;}
+.myprofile_page .text{width:100px;padding:15px 0 0 20px;}
+.myprofile_page .data_out_field{width:150px;margin-top:15px;}
+
+.myprofile_page.pw .form{width:340px;padding-right:10px;}
+.myprofile_page.pw .text{width:120px;}
+.myprofile_page.pw input,
+.myprofile_page.id input,
+.myprofile_page.id select{width:170px;height:25px;margin-top:10px;}
+.myprofile_page.id input,
+.myprofile_page.id select{width:150px;}
+
+.edit_profile_button_form{width:320px;height:60px;margin:75px auto;}
+.edit_detail_profile_button_form{width:200px;height:60px;margin:75px auto;}
+.edit_profile_button_form button{border:2px solid #ff5252;border-radius:5px;width:150px;height:60px;background-color:#00000000;outline:none;color:#ff5252;font-size:20px;font-family:'jua',sans-serif;margin:5px;}
+.edit_profile_button_form button:hover{background-color:#ff5252;cursor:pointer;color:#fff;}
+.edit_profile_button_form a {font-size: 25px;margin-left: 40px;}
+.err_form {margin-left: -135px;}
+    
+
+@media(max-width: 1000px) {
+	.myprofile_page,.myprofile_page.pw,.myprofile_page.id{width: 100%;padding:0; margin-top: 50px;}
+	.myprofile_page h1{font-size: 70px;}
+	.myprofile_page .form{width: 70%; height: 100px}
+	.myprofile_page .text ,.data_out_field.f-right,select.data_out_field.f-right,input.data_out_field.f-right{width: 300px;padding: 15px 0 0 20px;font-size: 40px;height: 50px;}.edit_profile_button_form {width: 640px;}
+	.edit_profile_button_form button.center.edit_profile_button{width: 300px;height: 120px;font-size: 40px;}
+	a.btn.btn-warning,.err_form{font-size: 60px;}
+	.myprofile_page.pw .form{width: 70%; height: 100px}
+	.myprofile_page.pw .text.f-left{width: 300px;}
+}

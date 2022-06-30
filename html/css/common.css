@@ -1,0 +1,95 @@
+header,body{font-family:'Sunflower',sans-serif;font-family:Jua,sans-serif;margin:0;}
+
+
+.center{text-align: center;}
+.color-red{color: red;}
+.color-blue{color: blue;}
+
+.err_form{ position: fixed; width: 400px; top: 50%;  left:50%;  margin-left: -200px;  margin-top: -350px; text-align: center;}
+
+.alert { padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;}
+
+.alert-danger {  color: #a94442;  background-color: #f2dede;  border-color: #ebccd1;}
+.alert-success {  color: #3c763d;  background-color: #dff0d8;  border-color: #d6e9c6;}
+
+.w-30{width: 30px;}
+.w-50{width: 50px;}
+.w-100{width: 100px;}
+.w-150{width: 150px;}
+.w-200{width: 200px;}
+.w-300{width: 300px;}
+.w-400{width: 400px;}
+.w-500{width: 500px;}
+.w-600{width: 600px;}
+.w-700{width: 700px;}
+.w-800{width: 800px;}
+.w-850{width: 850px;}
+.w-900{width: 900px;}
+.w-1000{width: 1000px;}.w-1100{width: 1100px;}.w-1200{width: 1200px;}.w-1300{width: 1300px;}.w-1400{width: 1400px;}.w-1500{width: 1500px;}.w-1600{width: 1600px;}.w-1700{width: 1700px;}.w-1800{width: 1800px;}.w-1900{width: 1900px;}
+.w-2000{width: 2000px;}.w-2100{width: 2100px;}.w-2200{width: 2200px;}.w-2300{width: 2300px;}.w-2400{width: 2400px;}.w-2500{width: 2500px;}.w-2600{width: 2600px;}.w-2700{width: 2700px;}.w-2800{width: 2800px;}.w-2900{width: 2900px;}
+.w-3000{width: 3000px;}.w-3100{width: 3100px;}.w-3200{width: 3200px;}.w-3300{width: 3300px;}.w-3400{width: 3400px;}.w-3500{width: 3500px;}.w-3600{width: 3600px;}.w-3700{width: 3700px;}.w-3800{width: 3800px;}.w-3900{width: 3900px;}
+.w-4000{width: 4000px;}.w-4100{width: 4100px;}.w-4200{width: 4200px;}.w-4300{width: 4300px;}.w-4400{width: 4400px;}.w-4500{width: 4500px;}.w-4600{width: 4600px;}.w-4700{width: 4700px;}.w-4800{width: 4800px;}.w-4900{width: 4900px;}
+.w-5000{width: 5000px;}
+
+
+.mt-7_5{margin-top: 7.5px;}
+.mt-10{margin-top: 10px;}
+.mt-20{margin-top: 20px;}
+.mt-30{margin-top:30px;}
+.mt-50{margin-top:50px}
+.mt-70{margin-top:70px;}
+
+.mr-auto{margin-right: auto;}
+.mr-5{margin-right: 5px;}
+.mr-7{margin-right: 7px;}
+.mr-10{margin-right: 10px;}
+.mr-20{margin-right: 20px;}
+.mr-30{margin-right: 30px;}
+.mr-100{margin-right: 100px;}
+
+.ml-auto{margin-left: auto;}
+.ml-30{margin-left: 30px;}
+.ml-50{margin-left: 50px;}
+.ml-60{margin-left: 60px;}
+.ml-100{margin-left: 100px;}
+.ml-110{margin-left: 110px;}
+.ml-150{margin-left: 150px;}
+.ml-200{margin-left: 200px;}
+
+.br-1-solid-ccc{border-right: 1px solid #ccc;}
+
+.pt-10{padding-top: 10px;}
+.pt-30{padding-top: 30px;}
+.pt-50{padding-top: 50px;}
+.pt-60{padding-top: 60px;}
+.pt-70{padding-top: 70px;}
+
+
+.pr-10{padding-right:10px;}
+.pr-20{padding-right: 20px;}
+.pr-100{padding-right: 100px;}
+
+.pr-2{padding-left: 2px;}
+.pr-3{padding-left: 3px;}
+.pr-4{padding-left: 4px;}
+.pr-5{padding-left: 5px;}
+.pr-6{padding-left: 6px;}
+
+.f-right{float: right;}
+.f-left{float: left;}
+
+.border-top-right-5{border-top-right-radius:5px;}
+.border-top-left-5{border-top-left-radius:5px;}
+.border-bottom-left-5{border-bottom-left-radius:5px;}
+.border-bottom-right-5{border-bottom-right-radius:5px;}
+
+@media(max-width: 1000px) {
+    .container{ margin-top: 120px; margin-left: 0; }
+    .content{ max-height: 2000px; }
+    .faq h2{font-size: 50px;}
+    .faq p{font-size: 40px;}
+    .faq img {width: 95%;height: auto;margin: 0 2.5%;}
+}

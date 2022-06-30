@@ -1,0 +1,19 @@
+.navigation{ position:fixed; top: 0; height: 100vh; width: 100px; min-height:400px; background-color: #c62828; max-height: 1200px; }.navigation .form{width: 90px; height: 90px;padding:10px 5px;}
+.navigation .bottom_form{top: 99vh}
+.bottom_0{position: absolute;bottom:30px;}
+.bottom_1{position: absolute;bottom:140px;}
+.navigation button:hover{background-color: #ff5d5d;cursor: pointer;}
+.navigation .on{background-color: #ff4f4f;}
+
+.navigation button{ border: 0px solid #ff5252;border-radius: 5px;width: 90px;height: 90px;background-color: #00000000;outline: none;}
+
+.navigation .index_page_button{background-image: url("/images/calander.png"); }
+.navigation .apply_page_button{background-image: url("/images/apply.png"); }
+.navigation .inquiry_page_button{background-image: url("/images/inquiry.png"); }
+.navigation .editprofile_page_button{background-image: url("/images/editprofile.png"); }
+.navigation .admin_page_button{background-image: url("/images/admin.png"); }
+.navigation .question_page_button{background-image: url("/images/question.png"); }
+
+@media(max-width: 1000px) {
+	.navigation{display: none;}
+}

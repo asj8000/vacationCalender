@@ -1,0 +1,37 @@
+.inquiry_wrap{width:97%;height:75vh;border:1px solid #ccc;padding:10px;}
+.inquiry_wrap .inquiry_con{height:70px;}
+.inquiry_wrap .inquiry_date_con{position:fixed;margin-top:-70px;}
+.inquiry_wrap .inquiry_wrap_1,
+.inquiry_wrap .inquiry_wrap_2,
+.inquiry_wrap .inquiry_wrap_3,
+.inquiry_wrap .inquiry_wrap_4,
+.inquiry_wrap .inquiry_wrap_5{overflow-y:auto;height:85%;}
+
+.inquiry_wrap .usage_count_point{width:20px;height:20px;margin:0 auto;background:#FFA25D;border-radius:25%;}
+
+.inquiry_wrap .check_wrap .middle_group,
+.inquiry_wrap .check_wrap .bottom_group,
+.inquiry_wrap .check_wrap .sub_check .top_group,
+.inquiry_wrap .check_wrap .sub_check .bottom_group{width:940px;height:23px;padding-top:3px;}
+
+.inquiry_wrap .sub_check{margin-top:18px;width:100%;}
+.inquiry_wrap .top_group .group_form{background:#f3f3f3;}
+.inquiry_wrap .top_group{height:30px;}
+.inquiry_wrap .bottom_group{width:1000px;}
+.inquiry_wrap .group_wrap{border-bottom:1px solid #ccc;height:25px;}
+.inquiry_wrap .group_form{text-align:center;height:23px;float:left;}
+.inquiry_wrap .title.group_form{height:30px;}
+
+.inquiry_wrap button,.inquiry_sort_con input{width:70px;background:#fff;outline:none;border:1.5px solid #ff5252;color:#ff5252;border-radius:3px;padding:2px;font-family:'jua',sans-serif;font-size:15px;}
+.inquiry_wrap button:hover,.inquiry_sort_con input:hover{color:#fff;background:#ff5252;cursor:pointer;}
+.inquiry_wrap .usage_count_point span{display:block;cursor:pointer;}
+.inquiry_wrap .usage_count_point span:hover + p.arrow_box{display:block;}
+.inquiry_wrap .usage_count_point .arrow_box{display:none;width:130px;padding:8px;left:0;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;background:#333;color:#fff;font-size:14px;margin-left:-60px;position:relative;}
+.inquiry_wrap .usage_count_point .arrow_box:after{position:absolute;bottom:100%;left:50%;width:0;height:0;margin-left:-10px;border:solid transparent;border-color:rgba(51,51,51,0);border-bottom-color:#333;border-width:10px;pointer-events:none;content:" ";}
+
+.upload_excel_form{ width: 100vw; height: 100vh; position: fixed; top: 0; left: 0; }
+.upload_excel_form .backgorund_wrap{ width: 100%; height: 100%; background: #cccccccc; }
+.upload_excel_form table{position: fixed;width: 100px;top: 50%;left: 50%;margin: -50px 0 0 -142px;background: white;}
+
+.inquiry_wrap_5{ height: 100%; }
+.user_usage_inquiry{ height: 95%; overflow: auto; }
